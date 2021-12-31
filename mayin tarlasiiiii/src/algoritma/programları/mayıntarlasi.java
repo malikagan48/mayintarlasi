@@ -25,17 +25,17 @@ public class mayıntarlasi {
         OUTER:
         while (true) {
             if (KontrolEt()) {
-                System.out.println("Başardın haa");
+                System.out.println("Başardınız tebrikler");
                 break;
             }
             int x = Integer.parseInt(scanner.nextLine());
             int y = Integer.parseInt(scanner.nextLine());
             switch (dizi[x][y]) {
                 case 1:
-                    System.out.println("patlıyosun haa");
+                    System.out.println("patlıyorsunuz");
                     break OUTER;
                 case 2:
-                    System.out.println("zaten bunu açtın haa");
+                    System.out.println("Bu seçimi kullandınız");
                     break;
                 default:
                     dizi[x][y] = 2;
